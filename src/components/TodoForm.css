@@ -1,0 +1,54 @@
+.icon{
+    height: 225px;
+    width: 650px;
+    position: absolute;
+    margin-left: 100vh;
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items:center;
+    justify-content: center;
+    height: 50vh;
+    background-size: cover;
+    color: white;
+    position: relative;
+  }
+  
+  .input{
+    height: 10vh;
+    width: 70vh;
+    outline: none;
+    font-family:'Roboto Slab', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding:10px;
+    border :1px solid blueviolet ;
+    background-color: transparent;
+    transition: border-bottom-color 0.3s ease-in-out
+  }
+  
+  .input:focus {
+    border: none;
+    border-bottom: 2px solid #9B88FE;
+  }
+  
+  .btn{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #9E8EF9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #8875e6; /* Darker shade on hover */
+  }

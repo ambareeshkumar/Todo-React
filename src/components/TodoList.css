@@ -1,0 +1,47 @@
+/* src/components/TodoList.css */
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid blueviolet;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 400px; /* Set a fixed width for each todo item */
+    transition: background-color 0.3s ease; /* Add a subtle background-color transition */
+  }
+  
+  .todo-item.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+    text-decoration-color: blueviolet;
+  }
+  
+  .todo-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color:blueviolet;
+    font-family:'Roboto Slab', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  
+  .todo-content span {
+    flex-grow: 1; /* Allow the text to grow and take available space */
+  }
+  
+  .todo-content .MuiButtonBase-root {
+    margin-left: 10px;
+    flex-shrink: 0; /* Ensure buttons don't shrink and stay in the same line */
+  }
+  
