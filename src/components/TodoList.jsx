@@ -1,10 +1,8 @@
 /* eslint-disable react/prop-types */
 // src/components/TodoList.js
-// import React from 'react';
-// import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import DeleteIcon from '@mui/icons-material/Delete';
-import './TodoList.css'; // Update or create a new CSS file for TodoList styling
+import './TodoList.css';
 
 const TodoItem = ({ todo, toggleTodo, deleteTodo }) => {
   return (
